@@ -1,0 +1,23 @@
+# como asignar un nuevo valor a una variable ya existente
+var = 1
+print("variable con un valor primario:", var)
+var = var + 1
+print("variable con un valor asignado:", var)
+var = 100
+var = 200 + 300
+print(var)
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
+# LAB VARIABLES 
+juan = 3
+madison = 5
+alex = 6
+print("juan tiene",juan,"manzanas -->","madison tiene" ,madison,"manzanas -->","alex tiene",alex,"manzanas")
+total_manzanas= juan + madison + alex
+print("el total de manzanas es", total_manzanas)
+# operadores abreviados 
+x = 5
+x *= 2  # x = x * 2
+print(x)
